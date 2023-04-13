@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pathbuilder2e Roll20 Integration</title>
+</head>
+<body>
+  <h1>Select rolls to send to Roll20</h1>
+  <ul id="rolls-list"></ul>
+  <button id="send-button">Send to Roll20</button>
+  <script>
+    // Query the Pathbuilder2e DOM for the rolls
+    var rolls = Array.from(document.querySelectorAll(".roll"));
+    

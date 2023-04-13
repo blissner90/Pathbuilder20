@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Pathbuilder2e Roll20 Integration",
+    "version": "1.0.0",
+    "description": "Integrates Pathbuilder2e with Roll20",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://app.roll20.net/*"
+        ],
+        "js": [
+          "content.js"
+        ]
+      }
+    ]
+  }
